@@ -1,50 +1,25 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# phpstorm project files
+.idea
 
-# compiled output
-/dist
-/tmp
+# netbeans project files
+nbproject
 
-# dependencies
-/node_modules
-
-# IDEs and editors
-/.idea
+# zend studio for eclipse project files
+.buildpath
 .project
-.classpath
-.c9/
-*.launch
-.settings/
+.settings
 
-# IDE - VSCode
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
-
-#System Files
-.DS_Store
+# windows thumbnail cache
 Thumbs.db
 
 # composer vendor dir
 /vendor
 
 # composer itself is not needed
-composer.lock
 composer.phar
+
+# Mac DS_Store Files
+.DS_Store
 
 # phpunit itself is not needed
 phpunit.phar
@@ -53,4 +28,3 @@ phpunit.phar
 
 tests/_output/*
 tests/_support/_generated
-/config/db.php
