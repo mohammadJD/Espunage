@@ -4,10 +4,10 @@
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
+<div class="site-index" ng-controller="homePageController">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1>{{test}}</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
