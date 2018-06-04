@@ -11,7 +11,7 @@ app.controller("homePageController",function ($scope,$http) {
         testApi:function () {
             $http.get("api/get-products").then(function (response) {
                 console.log("test api....");
-                console.log(response);
+                console.log(response.data.data);
             });
         },
         init:function () {
